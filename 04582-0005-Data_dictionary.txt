@@ -1,0 +1,159 @@
+Data Dictionary (i.e. variable name, type, position, label) for 2002 Family-Respondent Data 
+
+VARIABLE       COLUMN       TYPE        LABEL
+KASHLP2A       1-8          Num         After welfare other help 1
+UBLMRENT       9-16         Num         Blurred amount of monthly rent/mortgage
+UBLMREN2       17-24        Num         Blurred amt of tot mnthly rent/mortgage
+MAINRSLT       25-26        Char        First extended interview result code
+TYPEINT        27-28        Char        Extended interview type
+RESPID         29-38        Char        Respondent identification number
+XOWNRENT       39-46        Char        Imputation flag for MOWNRENT
+XMEDHMO        47-54        Char        Imputation flag for EMEDHMO
+XMEDLST        55-62        Char        Imputation flag for EMEDLST
+XLISTEN        63-64        Char        Imputation flag for BLISTEN
+STATE          65-66        Char        State
+SITE           67-68        Char        Site
+UREGION        69           Char        Region
+XOUTPOK2       70-77        Char        Imputation flag for FOUTPOK2
+HHID           78-85        Char        Household identification number
+BSATMED        86-88        Num         Satisfied with quality of medical care
+BCONMED        89-91        Num         Confident can get medical care if needed
+BLISTEN        92-94        Num         Doctor listened and explained
+BNOWEL         95-97        Num         CHIP/Medicaid covers kids not on welfare
+EMEDHMO        98-100       Num         Had Medicaid HMO
+EMEDLST        101-103      Num         Must use Medicaid doctor list
+EMEDPCD        104-106      Num         Must have Medicaid specific primary dr
+EMEDREF        107-109      Num         Must have Medicaid referral
+FNOMED         110-112      Num         Medical care postponed last year
+FNODEN         113-115      Num         Dental care postponed last year
+FNODRG         116-118      Num         Prescription drugs postponed last year
+FOUTPOK2       119-121      Num         Estimated out-of-pocket health expenses
+JANYPUB        122-124      Num         Anyone in social fam rcvd public asstnce
+JAFDCF         125-127      Num         Anyone in social family received AFDC
+JSAFDCF        128-130      Num         Anyone in social family rcvd state AFDC
+JGAF           131-133      Num         Anyone in social fam rcvd gnrl asstnce
+JLUMPSUM       134-136      Num         Was assistance one-time lump sum
+JVOUCHEF       137-139      Num         Anyone in soc fam rcvd welfare vouchers
+JFSTAMPF       140-142      Num         Anyone receive food stamps or ebt card
+JCHILDF        143-145      Num         Anyone in social fam rcvd child support
+JFOSTERF       146-148      Num         Anyone in soc fam rcvd foster care pymnt
+JFRELF         149-151      Num         Anyone in soc fam rcvd fin asst frm rel
+JUNEMPF        152-154      Num         Anyone in soc fam rcvd unemplymnt comp
+JWCOMVEF       155-157      Num         Anyone in fam rcvd wrkrs comp/Vet pay
+JWCOMP         158-160      Num         Anyone receive workers` compensation      
+JWVETB         161-163      Num         Anyone receive veterans` benefits
+JSUPSECF       164-166      Num         Anyone in soc fam rcvd Supp Secty Income
+JSOCSECF       167-169      Num         Anyone in soc fam rcvd Social Security
+JPENANNF       170-172      Num         Anyone in soc fam rcvd pension/annuity
+JINTDIVF       173-175      Num         Anyone in soc fam rcvd interest/dividend
+JRENTALF       176-178      Num         Anyone in social fam rcvd rental income
+JOTHINCF       179-181      Num         Anyone in social fam rcvd other income
+JAFDCA1        182-184      Num         TANF/AFDC for child, parent(s) or both
+JSUPKID        185-187      Num         Benefits received on child`s behalf
+JABPOV         188-190      Num         Income GT/LT poverty line
+JAB2POV        191-193      Num         Income GT/LT 2X poverty line
+JAB4POV        194-196      Num         Income GT/LT 4X poverty line
+JOWNCAR        197-199      Num         Anyone in social family own car
+JOTHTYPC       200-202      Num         Other income description code
+KAFDC          203-205      Num         Ever received AFDC
+KAFDCTIM       206-208      Num         How long received TANF or AFDC as adult
+KAFDCUNT       209-211      Num         Time/unit received TANF or AFDC as adult
+KAR1STYR       212-215      Num         Year first received AFDC
+KARGT5YR       216-218      Num         First received AFDC more than 5 yrs ago
+KARJAN95       219-221      Num         Any AFDC since January 2000
+KASJAN95       222-224      Num         AFDC stopped GT 1 month since Jan 2000
+KASWHY         225-227      Num         Cutoff by welfare office or self
+KASLEFTA       228-230      Num         Left welfare reason 1
+KASLEFTB       231-233      Num         Left welfare reason 2
+KASLEFTC       234-236      Num         Left welfare reason 3
+KASCUTA        237-239      Num         Welfare office cut off reason 1
+KASCUTB        240-242      Num         Welfare office cut off reason 2
+KASCUTC        243-245      Num         Welfare office cut off reason 3
+KASHLP1A       246-248      Num         After welfare child care needs
+KASHLP1B       249-251      Num         After welfare health insurance needs
+KASHLP1C       252-254      Num         After welfare helps with expenses
+KASJOBT        255-257      Num         Help with finding a job or training
+KAREDUCE       258-260      Num         AFDC ever reduced since Jan 2000
+KAREDYA        261-263      Num         AFDC reduced reason 1
+KAREDYB        264-266      Num         AFDC reduced reason 2
+KAREDYC        267-269      Num         AFDC reduced reason 3
+KAFDCAPP       270-272      Num         Applied for AFDC since Jan 2001
+KAOFFHLP       273-275      Num         Offered short-term help (cash/voucher)
+KAFDCNOW       276-278      Num         MKA/children receiving AFDC benefits now
+KALIMIT        279-281      Num         Agency told resp of time limit to AFDC
+KALONGER       282-284      Num         How much longer can receive AFDC
+KALONGUN       285-287      Num         Time unit can yet receive AFDC
+KALCHKM        288-290      Num         Month last received AFDC
+KALCHKY        291-294      Num         Year last received AFDC
+KAFORA         295-297      Num         AFDC for children and MKA
+KAFORB         298-300      Num         AFDC for children, MKA and/or spouse
+KALSTOPM       301-303      Num         Month stopped receiving AFDC
+KALSTOPY       304-307      Num         Year stopped receiving AFDC
+KFEVER         308-310      Num         Ever received food stamps
+KFTIM          311-313      Num         How long received food stamps as adult
+KFUNT          314-316      Num         Time/unit received food stamps as adult
+KF1STYR        317-320      Num         Year first received food stamps
+KFGT5YR        321-323      Num         Received food stamps GT 5 years ago
+KFRJAN95       324-326      Num         Receive food stamps since Jan 2000
+KFSJAN95       327-329      Num         Stopped receiving stamps since Jan 2000
+KFYSTOP        330-332      Num         Cut off by stamp office or self
+KFYLFTA        333-335      Num         Left food stamp program reason 1
+KFYLFTB        336-338      Num         Left food stamp program reason 2
+KFYLFTC        339-341      Num         Left food stamp program reason 3
+KFYCUTA        342-344      Num         Food stamp office cut off reason 1
+KFYCUTB        345-347      Num         Food stamp office cut off reason 2
+KFYCUTC        348-350      Num         Food stamp office cut off reason 3
+KFNOW          351-353      Num         Receiving food stamp benefits now
+KFCOND         354-356      Num         Anyone required to work to get stamps
+KFAPP2YR       357-359      Num         Ever applied for stamps in last two yrs
+KFLASTM        360-362      Num         Month last received food stamps
+KFLASTY        363-366      Num         Year last received food stamps
+KWIC           367-369      Num         Received WIC vouchers last year
+KBREAK         370-372      Num         Free breakfasts at school last year
+KLUNCH         373-375      Num         Free lunches at school last year
+KGETCARE       376-378      Num         Get govt help pay child care past 12 mos
+KASKCARE       379-381      Num         Ask govt help pay child care last 12 mos
+KNOCAREA       382-384      Num         Didn`t get govt child care reason 1
+KNOCAREB       385-387      Num         Didn`t get govt child care reason 2
+KNOCAREC       388-390      Num         Didn`t get govt child care reason 3
+KEITCHRD       391-393      Num         Heard of EITC
+KEITCREC       394-396      Num         Ever received EITC
+KEITCYR        397-399      Num         Year last received EITC
+KTAXFED        400-402      Num         Who completes Federal Tax Return
+KTAXHELP       403-405      Num         Comm svc grp/paid preparer help w/taxes
+KCHDSUP        406-408      Num         Received any child support this year
+KDISBEN        409-411      Num         Received SSI or SSDI benefits this year
+LUNPJB         412-414      Num         Participate in unpaid job
+LVOUCHR        415-417      Num         Given vouchers for education
+LJBCLAS        418-420      Num         Received help looking for work in 2001
+LTRAIN         421-423      Num         Taken job training courses
+LHSCLS         424-426      Num         Taken GED classes last year
+LCREDIT        427-429      Num         Anyone take college courses
+MLIVETM        430-432      Num         Time lived at this home
+MLIVEUN        433-435      Num         Time lived at this home - unit of time
+MINSTATE       436-438      Num         In-state or out-of-state move
+MFDWORRY       439-441      Num         Worried whether food would run out
+MFDLACK        442-444      Num         Food bought didn`t last
+MCUTMEAL       445-447      Num         Cut/skip meals for lack of money
+MCUTOFT        448-450      Num         Cut/skip meals for lack of money-freq
+MPAYRENT       451-453      Num         Unable to pay rent in last year
+MMOVEOUT       454-456      Num         Move in with other people last 12 months
+MLOAN          457-459      Num         Mortgage/loan on this house
+MEMGFOOD       460-462      Num         Did get emergency food in past 12 mnths
+MFOODOFT       463-465      Num         How often got emerg food past 12 months
+MFOODPLA       466-468      Num         Where got emergency food past 12 months
+NRISK          469-471      Num         More likely to take risks than average
+ITOTFAM        472-474      Num         Any other HH members work for pay
+IARRNG         475-477      Num         Work hours arranged for child care
+UFC1REL        478-480      Num         Relation to focal child 1
+UFC2REL        481-483      Num         Relation to focal child 2
+UMKA1REL       484-486      Num         Relationship of this person to MKA1
+UMKA2REL       487-489      Num         Relationship of this person to MKA2
+UB1REL         490-492      Num         Relation to option b respondent 1
+UB2REL         493-495      Num         Relation to option b respondent 2
+USPA1REL       496-498      Num         Rltnshp of this person to spouse of MKA1
+USPA2REL       499-501      Num         Rltnshp of this person to spouse of MKA2
+USPB1REL       502-504      Num         Rltnshp of this person to spouse of B1
+USPB2REL       505-507      Num         Rltnshp of this person to spouse of B2
+UEMREL         508-510      Num         Rltnshp of this person to EM
+USPEMREL       511-513      Num         Rltnshp of this person to spouse of EM
